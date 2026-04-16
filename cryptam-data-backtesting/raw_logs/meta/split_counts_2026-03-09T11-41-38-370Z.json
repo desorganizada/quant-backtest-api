@@ -1,0 +1,15 @@
+{
+  "unmatched": 94982,
+  "errors_and_warnings": 15,
+  "orders": 56981,
+  "params": 64,
+  "execution_bar": 18994,
+  "execution_indicators": 28491,
+  "duration_statistics": 37984,
+  "strategy_bar": 8314,
+  "strategy_indicators": 4176,
+  "fills": 0,
+  "remain": 0,
+  "anomalies": 0,
+  "trend": 0
+}

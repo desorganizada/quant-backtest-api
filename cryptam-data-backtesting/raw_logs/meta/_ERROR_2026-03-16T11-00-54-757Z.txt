@@ -1,0 +1,19 @@
+TypeError: _fixed_decimal_string() got multiple values for argument 'decimals'
+
+Traceback (most recent call last):
+  File "/work/server.py", line 532, in process_log
+    return run_parser_pipeline(input_log=in_path, final_root=final_root, run_stamp=run_stamp)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/server.py", line 618, in run_parser_pipeline
+    obj = call_parse(JSON_PARSERS[k], bucket_lines)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/server.py", line 213, in call_parse
+    return fn(lines)
+           ^^^^^^^^^
+  File "/work/transforms.py", line 916, in params_final
+    return params(lines)
+           ^^^^^^^^^^^^^
+  File "/work/transforms.py", line 886, in params
+    final_out["epsilon"] = _fixed_decimal_string(
+                           ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: _fixed_decimal_string() got multiple values for argument 'decimals'

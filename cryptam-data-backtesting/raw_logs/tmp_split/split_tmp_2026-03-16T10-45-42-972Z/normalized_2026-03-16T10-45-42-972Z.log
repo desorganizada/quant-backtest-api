@@ -1,0 +1,236 @@
+#Strategy Parameters
+2025-10-02 06:41:18.903800 [INF] [CB_RO] Init Param "pricePrecision" = "1", rules= "int,0,8,F0,False"
+2025-10-02 06:41:18.903810 [INF] [CB_RO] Init Param "sizePrecision" = "2", rules= "int,0,10,#,False"
+2025-10-02 06:41:18.903818 [INF] [CB_RO] Init Param "Symbol" = "BTC-USDT-SWAP", rules= "display"
+2025-10-02 06:41:18.904234 [INF] [CB_RO] Init Param "aep_factor" = "1.000", rules= "decimal,0,1000,F3,False"
+2025-10-02 06:41:18.904260 [INF] [CB_RO] Init Param "baseOrdersize" = "0.01", rules= "decimal,0,79228162514264337593543950335,0.########,False"
+2025-10-02 06:41:18.904266 [INF] [CB_RO] Init Param "centralCloseProportion" = "0.000", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.904271 [INF] [CB_RO] Init Param "deviationLambda" = "0.250", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.904278 [INF] [CB_RO] Init Param "envFactor" = "1.000", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.904292 [INF] [CB_RO] Init Param "gridInterval" = "5.000", rules= "decimal,1,79228162514264337593543950335,F3,False"
+2025-10-02 06:41:18.904305 [INF] [CB_RO] Init Param "gridPoints" = "1", rules= "int,1,2147483647,F0,False"
+2025-10-02 06:41:18.904314 [INF] [CB_RO] Init Param "gridPower" = "1.000", rules= "decimal,1,79228162514264337593543950335,F3,False"
+2025-10-02 06:41:18.904319 [INF] [CB_RO] Init Param "gridValueFactor" = "1.000", rules= "decimal,1,79228162514264337593543950335,F3,False"
+2025-10-02 06:41:18.904324 [INF] [CB_RO] Init Param "hardLimitFactor" = "1.000", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.904336 [INF] [CB_RO] Init Param "max_orderqty" = "0.01", rules= "decimal,0,79228162514264337593543950335,0.########,False"
+2025-10-02 06:41:18.904354 [INF] [CB_RO] Init Param "max_position" = "0.01", rules= "decimal,0,79228162514264337593543950335,0.########,False"
+2025-10-02 06:41:18.904362 [INF] [CB_RO] Init Param "minDeviation" = "1000.000", rules= "decimal,0,100000,F3,False"
+2025-10-02 06:41:18.904371 [INF] [CB_RO] Init Param "orderSizePercentage" = "10", rules= "decimal,0,100,0.########,False"
+2025-10-02 06:41:18.904376 [INF] [CB_RO] Init Param "positionBiasParam" = "10.000", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.904713 [INF] [CB_RO] Init Param "postOnly" = "False", rules= "bool"
+2025-10-02 06:41:18.904743 [INF] [CB_RO] Init Param "priceLambda" = "0.250", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.904750 [INF] [CB_RO] Init Param "targetTradeRate" = "0.500", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.904755 [INF] [CB_RO] Init Param "tradeRateLambda" = "0.750", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.922337 [INF] [CB_RO] Init Param "allow_gapopen" = "False", rules= "bool"
+2025-10-02 06:41:18.923093 [INF] [CB_RO] Init Param "bar_choice" = "candle", rules= "Enum,none,candle,heikinashi"
+2025-10-02 06:41:18.923823 [INF] [CB_RO] Init Param "bar_criterion" = "PricediffOrVolume", rules= "Enum,none,volume,pricediff,PricediffOrVolume"
+2025-10-02 06:41:18.924506 [INF] [CB_RO] Init Param "data_source" = "both", rules= "Enum,none,trade,book,both"
+2025-10-02 06:41:18.925236 [INF] [CB_RO] Init Param "fair_price_method" = "crossover", rules= "Enum,crossover,mid,bid,ask"
+2025-10-02 06:41:18.925258 [INF] [CB_RO] Init Param "maintain_constant_price_diff" = "False", rules= "bool"
+2025-10-02 06:41:18.925268 [INF] [CB_RO] Init Param "price_thresh" = "10", rules= "decimal,0,79228162514264337593543950335,F0,False"
+2025-10-02 06:41:18.925986 [INF] [CB_RO] Init Param "pricediff_type" = "openclose", rules= "Enum,none,openclose,highlow"
+2025-10-02 06:41:18.926680 [INF] [CB_RO] Init Param "resultbar_type" = "bbo_fair", rules= "Enum,none,trade,bbo_v2,bbo_fair,bbo_fair"
+2025-10-02 06:41:18.926707 [INF] [CB_RO] Init Param "time_thresh_ms" = "400", rules= "int,0,2147483647,F0,False"
+2025-10-02 06:41:18.926715 [INF] [CB_RO] Init Param "volume_threshold" = "10000", rules= "decimal,0,79228162514264337593543950335,F0,False"
+2025-10-02 06:41:18.927462 [INF] [CB_RO] Init Param "volume_type" = "total", rules= "Enum,none,total,imbalance"
+2025-10-02 06:41:18.928331 [INF] [CB_RO#trend] Init Param "TrendStrength#allow_gapopen" = "False", rules= "bool"
+2025-10-02 06:41:18.928350 [INF] [CB_RO#trend] Init Param "TrendStrength#bar_choice" = "candle", rules= "Enum,none,candle,heikinashi"
+2025-10-02 06:41:18.928358 [INF] [CB_RO#trend] Init Param "TrendStrength#bar_criterion" = "PricediffOrVolume", rules= "Enum,none,volume,pricediff,PricediffOrVolume"
+2025-10-02 06:41:18.928363 [INF] [CB_RO#trend] Init Param "TrendStrength#data_source" = "both", rules= "Enum,none,trade,book,both"
+2025-10-02 06:41:18.928369 [INF] [CB_RO#trend] Init Param "TrendStrength#fair_price_method" = "crossover", rules= "Enum,crossover,mid,bid,ask"
+2025-10-02 06:41:18.928373 [INF] [CB_RO#trend] Init Param "TrendStrength#maintain_constant_price_diff" = "True", rules= "bool"
+2025-10-02 06:41:18.928381 [INF] [CB_RO#trend] Init Param "TrendStrength#price_thresh" = "20", rules= "decimal,0,79228162514264337593543950335,F0,False"
+2025-10-02 06:41:18.928388 [INF] [CB_RO#trend] Init Param "TrendStrength#pricediff_type" = "openclose", rules= "Enum,none,openclose,highlow"
+2025-10-02 06:41:18.928397 [INF] [CB_RO#trend] Init Param "TrendStrength#resultbar_type" = "bbo_fair", rules= "Enum,none,trade,bbo_v2,bbo_fair,bbo_fair"
+2025-10-02 06:41:18.928409 [INF] [CB_RO#trend] Init Param "TrendStrength#time_thresh_ms" = "50", rules= "int,0,2147483647,F0,False"
+2025-10-02 06:41:18.928416 [INF] [CB_RO#trend] Init Param "TrendStrength#volume_threshold" = "1000000", rules= "decimal,0,79228162514264337593543950335,F0,False"
+2025-10-02 06:41:18.928423 [INF] [CB_RO#trend] Init Param "TrendStrength#volume_type" = "total", rules= "Enum,none,total,imbalance"
+2025-10-02 06:41:18.928791 [INF] [CB_RO#trend] Init Param "TrendStrength#bearQuantile" = "25.000", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.928808 [INF] [CB_RO#trend] Init Param "TrendStrength#bullQuantile" = "75.000", rules= "decimal,0,100,F3,False"
+2025-10-02 06:41:18.928814 [INF] [CB_RO#trend] Init Param "TrendStrength#doubleEwmaLambda" = "1.000", rules= "decimal,0,1,F3,False"
+2025-10-02 06:41:18.928821 [INF] [CB_RO#trend] Init Param "TrendStrength#emissionStatPeriod" = "100", rules= "int,1,10000,#,False"
+2025-10-02 06:41:18.928825 [INF] [CB_RO#trend] Init Param "TrendStrength#ewmaLambda" = "1.000", rules= "decimal,0,1,F3,False"
+2025-10-02 06:41:18.928829 [INF] [CB_RO#trend] Init Param "TrendStrength#initialProbBearish" = "0.500", rules= "decimal,0,1,F3,False"
+2025-10-02 06:41:18.928834 [INF] [CB_RO#trend] Init Param "TrendStrength#initialProbBullish" = "0.500", rules= "decimal,0,1,F3,False"
+2025-10-02 06:41:18.928842 [INF] [CB_RO#trend] Init Param "TrendStrength#slopeLookbackPeriod" = "10", rules= "int,1,10000,#,False"
+2025-10-02 06:41:18.928850 [INF] [CB_RO#trend] Init Param "TrendStrength#transProbStable" = "0.900", rules= "decimal,0,1,F3,False"
+2025-10-02 06:41:18.928858 [INF] [CB_RO#trend] Init Param "TrendStrength#transProbSwitch" = "0.100", rules= "decimal,0,1,F3,False"
+2025-10-02 06:41:18.928946 [INF] [CB_RO#trend] Init Param "TrendStrength#ConfirmationFactor" = "1.000"(def), rules= "decimal,0.001,79228162514264337593543950335,F3,False"
+2025-10-02 06:41:18.928962 [INF] [CB_RO#trend] Init Param "TrendStrength#maxAbsPosition" = "0.010", rules= "decimal,0,79228162514264337593543950335,F3,False"
+2025-10-02 06:41:18.928970 [INF] [CB_RO#trend] Init Param "TrendStrength#positionBuildUpFactor" = "0.500", rules= "decimal,0.001,79228162514264337593543950335,F3,False"
+2025-10-02 06:41:18.928975 [INF] [CB_RO#trend] Init Param "TrendStrength#positionReductionFactor" = "0.500", rules= "decimal,0.001,79228162514264337593543950335,F3,False"
+
+
+
+#Execution Bars
+2025-10-02 06:41:59.723068 [INF] [CB_RO] extra bid:ohlc(118567.6,118577.9,118562.6,118577.9),ask:ohlc(118567.7,118578,118562.7,118578),fair:ohlc(118567.65,118577.95,118562.65,118577.95),trades:ohlc(118567.6,118573.7,118562.6,118573.7)
+2025-10-02 06:41:59.726497 [INF] [CB_RO] bar[1] ohlc(118567.65,118577.95,118562.65,118577.95),numtick=1158,last_tradeid=1782364168,bar_counter=1,volume=1858.48,time_elapsed_ms=40821,c-o=10.30,rawc-o=null,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=False, OBSeq=638949841197190000
+
+
+2025-10-02 06:41:59.729753 [INF] [CB_RO] centralPrice=118577.95000000,ewmaPrice=118577.95000000,ewmaDeviation=15.30000000,forwardMid=118577.
+95000000,positionBias=0.00000000,forwardHighOrderPrice=119077.95000000,forwardLowOrderPrice=118077.95000000,prevTargetPosition=0.00000000, targetPosition=0.00000000,aep_adjustment_high=0,aep_adjustment_low=0,avgEntryPrice=0
+2025-10-02 06:41:59.729794 [INF] [CB_RO] barHeight=15.30000000,sellRate=0.00000000,buyRate=0.00000000,sellTrade=0.00000000,sellTradePrice=0.00000000,buyTrade=0.00000000,buyTradePrice=0.00000000
+2025-10-02 06:41:59.729940 [INF] [CB_RO] Using Current forwardHighOrderPrice=119077.9500,forwardLowOrderPrice=118077.9500
+2025-10-02 06:41:59.732633 [DBG] [CB_RO] Sending Limit Order SELL,Price=119078.0,qty=0.01,clOrdId="CBROBTCxstrata1x1"
+2025-10-02 06:41:59.732862 [INF] [CB_RO] Rest Limit Order 1: SELL price=119078.0 qty=0.01 clOrdId="CBROBTCxstrata1x1"，calculated pos = -0.01
+2025-10-02 06:41:59.733200 [DBG] [CB_RO] Sending Limit Order BUY,Price=118078.0,qty=0.01,clOrdId="CBROBTCxstrata1x2"
+2025-10-02 06:41:59.733262 [INF] [CB_RO] Rest Limit Order 1: BUY price=118078.0 qty=0.01 clOrdId="CBROBTCxstrata1x2",calculated pos = 0.01
+2025-10-02 06:41:59.738222 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x1","Sell",ACK
+2025-10-02 06:41:59.738231 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x2","Buy",ACK
+2025-10-02 06:41:59.802824 [INF] [OKXMarket] NewOrder created "2915374132781916160",inTime="1759387319784628",outTime="1759387319786558", clOrdId="CBROBTCxstrata1x1",qty=0.01,Price=119078.0
+2025-10-02 06:41:59.802831 [INF] [OKXMarket] NewOrder created "2915374132580589568",inTime="1759387319778558",outTime="1759387319780059", clOrdId="CBROBTCxstrata1x2",qty=0.01,Price=118078.0
+2025-10-02 06:41:59.803363 [WRN] [OKXMarket] HttpRoundTrip:[1,NEW:-1] Duration 67.7 ms, d2d = 15.448 tq:6.78 to:11.45 oq: 3.99 ms,tick_ts=14168092098476311,ord_ts=14168092109930416,deque_ts=14168092113923897. clOrdId:"CBROBTCxstrata1x1"
+2025-10-02 06:41:59.803379 [WRN] [OKXMarket] HttpRoundTrip:[2,NEW:-1] Duration 67.7 ms, d2d = 15.450 tq:6.78 to:12.95 oq: 2.50 ms,tick_ts=14168092098476311,ord_ts=14168092111424602,deque_ts=14168092113926612. clOrdId:"CBROBTCxstrata1x2"
+
+
+#Strategy Bar
+2025-10-02 06:42:00.250476 [INF] [CB_RO#trend] extra bid:ohlc(118567.6,118588,118562.6,118588),ask:ohlc(118567.7,118588.1,118562.7,118588.1),fair:ohlc(118567.65,118588.05,118562.65,118588.05),trades:ohlc(118567.6,118588,118562.6,118588)
+2025-10-02 06:42:00.250525 [INF] [CB_RO#trend] bar[1] ohlc(118567.65,118587.65,118562.65,118587.65),numtick=1185,last_tradeid=1782364225,bar_counter=1,volume=1891.08,time_elapsed_ms=41350,c-o=20.00,rawc-o=20.40,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=True, OBSeq=638949841202490000
+
+
+
+2025-10-02 06:42:00.251946 [INF] [CB_RO#trend] TrendStrength=_trendStrength,_trendStrength.Ewma,_trendStrength.DoubleEwma,_trendStrength.DoubleEwmaSlope,BuildUpInProgress,ReductionInProgress,_buildUpStepSize,_reductionStepSize,PositionMultiplier,TargetPosition,SlopeSignCount,TrendStatus
+2025-10-02 06:42:00.253887 [INF] [CB_RO#trend] TrendStrength=0,0,0,0,False,False,0.2,0.2,0,0.00,0,None
+
+#Execution Bar
+2025-10-02 06:42:00.253924 [INF] [CB_RO] extra bid:ohlc(118577.9,118588,118577.9,118588),ask:ohlc(118578,118588.1,118578,118588.1),fair:ohlc(118577.95,118588,118577.95,118588),trades:ohlc(118573.7,118588,118573.7,118588)
+2025-10-02 06:42:00.253936 [INF] [CB_RO] bar[2] ohlc(118577.95,118588,118577.95,118588),numtick=28,last_tradeid=1782364225,bar_counter=2,volume=32.60,time_elapsed_ms=527,c-o=10.05,rawc-o=null,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=False, OBSeq=638949841202490000
+
+
+
+2025-10-02 06:42:00.253954 [INF] [CB_RO] centralPrice=118588.00000000,ewmaPrice=118585.48750000,ewmaDeviation=11.36250000,forwardMid=118585.48750000,positionBias=0.00000000,forwardHighOrderPrice=119085.48750000,forwardLowOrderPrice=118085.48750000,prevTargetPosition=0.00000000, targetPosition=0.00000000,aep_adjustment_high=0,aep_adjustment_low=0,avgEntryPrice=0
+2025-10-02 06:42:00.253959 [INF] [CB_RO] barHeight=10.05000000,sellRate=0.00000000,buyRate=0.00000000,sellTrade=0.00000000,sellTradePrice=0.00000000,buyTrade=0.00000000,buyTradePrice=0.00000000
+2025-10-02 06:42:00.254331 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x1"
+2025-10-02 06:42:00.254385 [INF] [CB_RO] Cancel Buy Order clOrdId:"CBROBTCxstrata1x2"
+2025-10-02 06:42:00.254395 [INF] [CB_RO] Using Current forwardHighOrderPrice=119085.4875,forwardLowOrderPrice=118085.4875
+2025-10-02 06:42:00.254417 [DBG] [CB_RO] Sending Limit Order SELL,Price=119085.5,qty=0.01,clOrdId="CBROBTCxstrata1x3"
+2025-10-02 06:42:00.254423 [INF] [CB_RO] Rest Limit Order 1: SELL price=119085.5 qty=0.01 clOrdId="CBROBTCxstrata1x3"，calculated pos = -0.01
+2025-10-02 06:42:00.254432 [DBG] [CB_RO] Sending Limit Order BUY,Price=118085.5,qty=0.01,clOrdId="CBROBTCxstrata1x4"
+2025-10-02 06:42:00.254447 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x3","Sell",ACK
+2025-10-02 06:42:00.254438 [INF] [CB_RO] Rest Limit Order 1: BUY price=118085.5 qty=0.01 clOrdId="CBROBTCxstrata1x4",calculated pos = 0.01
+2025-10-02 06:42:00.254474 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x4","Buy",ACK
+2025-10-02 06:42:00.260414 [INF] [OKXMarket] NewOrder created "2915374148653162497",inTime="1759387320257673",outTime="1759387320259657", clOrdId="CBROBTCxstrata1x3",qty=0.01,Price=119085.5
+2025-10-02 06:42:00.260471 [WRN] [OKXMarket] HttpRoundTrip:[5,NEW:-1] Duration 6.0 ms, d2d = 0.527 tq:0.04 to:0.51 oq: 0.02 ms,tick_ts=14168092632293995,ord_ts=14168092632800827,deque_ts=14168092632821176. clOrdId:"CBROBTCxstrata1x3"
+2025-10-02 06:42:00.260706 [INF] [OKXMarket] NewOrder created "2915374148653162496",inTime="1759387320257697",outTime="1759387320259366", clOrdId="CBROBTCxstrata1x4",qty=0.01,Price=118085.5
+2025-10-02 06:42:00.260722 [WRN] [OKXMarket] HttpRoundTrip:[6,NEW:-1] Duration 6.3 ms, d2d = 0.554 tq:0.04 to:0.53 oq: 0.03 ms,tick_ts=14168092632293995,ord_ts=14168092632820545,deque_ts=14168092632848007. clOrdId:"CBROBTCxstrata1x4"
+2025-10-02 06:42:00.299806 [INF] [FirmOrderBook] Order "2915374132781916160" clOrdId="CBROBTCxstrata1x1" Cancelled, accQty =0
+2025-10-02 06:42:00.299821 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x1","Sell",CANCELLED
+2025-10-02 06:42:00.299982 [INF] [FirmOrderBook] Order "2915374132580589568" clOrdId="CBROBTCxstrata1x2" Cancelled, accQty =0
+2025-10-02 06:42:00.299993 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x2","Buy",CANCELLED
+2025-10-02 06:42:00.304902 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x1".inTime="1759387320297157",outTime="1759387320297898".
+2025-10-02 06:42:00.304909 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x2".inTime="1759387320297178",outTime="1759387320297906".
+2025-10-02 06:42:00.304922 [WRN] [OKXMarket] HttpRoundTrip:[4,CANCEL:0] Duration 50.5 ms, d2d = 0.478 tq:0.04 to:0.44 oq: 0.04 ms,tick_ts=14168092632293995,ord_ts=14168092632733089,deque_ts=14168092632772143. clOrdId:"CBROBTCxstrata1x2"
+2025-10-02 06:42:00.304928 [WRN] [OKXMarket] HttpRoundTrip:[3,CANCEL:0] Duration 50.5 ms, d2d = 0.478 tq:0.04 to:0.40 oq: 0.08 ms,tick_ts=14168092632293995,ord_ts=14168092632693895,deque_ts=14168092632772353. clOrdId:"CBROBTCxstrata1x1"
+
+#Execution Bar
+2025-10-02 06:42:06.189921 [INF] [CB_RO] extra bid:ohlc(118588,118599.1,118588,118599.1),ask:ohlc(118588.1,118599.2,118588.1,118599.2),fair:ohlc(118588,118599.1,118588,118599.1),trades:ohlc(118588,118598.1,118588,118598.1)
+2025-10-02 06:42:06.189957 [INF] [CB_RO] bar[3] ohlc(118588,118599.1,118588,118599.1),numtick=201,last_tradeid=1782364338,bar_counter=3,volume=468.77,time_elapsed_ms=5935,c-o=11.1,rawc-o=null,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=False, OBSeq=638949841261890000
+
+
+
+
+2025-10-02 06:42:06.189991 [INF] [CB_RO] centralPrice=118599.10000000,ewmaPrice=118595.69687500,ewmaDeviation=11.16562500,forwardMid=118595.69687500,positionBias=0.00000000,forwardHighOrderPrice=119095.69687500,forwardLowOrderPrice=118095.69687500,prevTargetPosition=0.00000000, targetPosition=0.00000000,aep_adjustment_high=0,aep_adjustment_low=0,avgEntryPrice=0
+2025-10-02 06:42:06.189995 [INF] [CB_RO] barHeight=11.10000000,sellRate=0.00000000,buyRate=0.00000000,sellTrade=0.00000000,sellTradePrice=0.00000000,buyTrade=0.00000000,buyTradePrice=0.00000000
+2025-10-02 06:42:06.190018 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x3"
+2025-10-02 06:42:06.190025 [INF] [CB_RO] Cancel Buy Order clOrdId:"CBROBTCxstrata1x4"
+2025-10-02 06:42:06.190032 [INF] [CB_RO] Using Current forwardHighOrderPrice=119095.6969,forwardLowOrderPrice=118095.6969
+2025-10-02 06:42:06.190058 [DBG] [CB_RO] Sending Limit Order SELL,Price=119095.7,qty=0.01,clOrdId="CBROBTCxstrata1x5"
+2025-10-02 06:42:06.190064 [INF] [CB_RO] Rest Limit Order 1: SELL price=119095.7 qty=0.01 clOrdId="CBROBTCxstrata1x5"，calculated pos = -0.01
+2025-10-02 06:42:06.190083 [DBG] [CB_RO] Sending Limit Order BUY,Price=118095.7,qty=0.01,clOrdId="CBROBTCxstrata1x6"
+2025-10-02 06:42:06.190089 [INF] [CB_RO] Rest Limit Order 1: BUY price=118095.7 qty=0.01 clOrdId="CBROBTCxstrata1x6",calculated pos = 0.01
+2025-10-02 06:42:06.190104 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x5","Sell",ACK
+2025-10-02 06:42:06.190110 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x6","Buy",ACK
+2025-10-02 06:42:06.191705 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x4".inTime="1759387326191183",outTime="1759387326191865".
+2025-10-02 06:42:06.191720 [WRN] [OKXMarket] HttpRoundTrip:[8,CANCEL:0] Duration 1.7 ms, d2d = 0.142 tq:0.06 to:0.12 oq: 0.02 ms,tick_ts=14168098568292003,ord_ts=14168098568414406,deque_ts=14168098568433512. clOrdId:"CBROBTCxstrata1x4"
+2025-10-02 06:42:06.192892 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x3".inTime="1759387326192395",outTime="1759387326193111".
+2025-10-02 06:42:06.192909 [WRN] [OKXMarket] HttpRoundTrip:[7,CANCEL:0] Duration 2.9 ms, d2d = 0.124 tq:0.06 to:0.10 oq: 0.02 ms,tick_ts=14168098568292003,ord_ts=14168098568396913,deque_ts=14168098568415608. clOrdId:"CBROBTCxstrata1x3"
+2025-10-02 06:42:06.193065 [INF] [FirmOrderBook] Order "2915374148653162496" clOrdId="CBROBTCxstrata1x4" Cancelled, accQty =0
+2025-10-02 06:42:06.193075 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x4","Buy",CANCELLED
+2025-10-02 06:42:06.194158 [INF] [FirmOrderBook] Order "2915374148653162497" clOrdId="CBROBTCxstrata1x3" Cancelled, accQty =0
+2025-10-02 06:42:06.194167 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x3","Sell",CANCELLED
+2025-10-02 06:42:06.196129 [INF] [OKXMarket] NewOrder created "2915374347832270848",inTime="1759387326193251",outTime="1759387326194905", clOrdId="CBROBTCxstrata1x5",qty=0.01,Price=119095.7
+2025-10-02 06:42:06.196148 [WRN] [OKXMarket] HttpRoundTrip:[9,NEW:-1] Duration 6.1 ms, d2d = 0.179 tq:0.06 to:0.15 oq: 0.03 ms,tick_ts=14168098568292003,ord_ts=14168098568442639,deque_ts=14168098568471464. clOrdId:"CBROBTCxstrata1x5"
+2025-10-02 06:42:06.198562 [INF] [OKXMarket] NewOrder created "2915374347832270849",inTime="1759387326193785",outTime="1759387326195249", clOrdId="CBROBTCxstrata1x6",qty=0.01,Price=118095.7
+2025-10-02 06:42:06.198582 [WRN] [OKXMarket] HttpRoundTrip:[10,NEW:-1] Duration 8.5 ms, d2d = 0.199 tq:0.06 to:0.17 oq: 0.03 ms,tick_ts=14168098568292003,ord_ts=14168098568460954,deque_ts=14168098568490921. clOrdId:"CBROBTCxstrata1x6"
+
+
+
+
+#Strategy Bar
+2025-10-02 06:42:11.398482 [INF] [CB_RO#trend] extra bid:ohlc(118588,118607.9,118588,118607.9),ask:ohlc(118588.1,118608,118588.1,118608),fair:ohlc(118587.65,118607.9,118587.65,118607.9),trades:ohlc(118588,118610,118588,118610)
+2025-10-02 06:42:11.398558 [INF] [CB_RO#trend] bar[2] ohlc(118587.65,118607.65,118587.65,118607.65),numtick=402,last_tradeid=1782364436,bar_counter=2,volume=666.50,time_elapsed_ms=11144,c-o=20.00,rawc-o=20.25,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=True, OBSeq=638949841313790000
+
+
+
+
+2025-10-02 06:42:11.407620 [INF] [CB_RO#trend] TrendStrength=1,0.0004999999999999449,1.4999999999996696E-07,0,False,False,0.2,0.2,0,0.00,0,None
+
+
+#Execution Bar
+2025-10-02 06:42:11.407740 [INF] [CB_RO] extra bid:ohlc(118599.1,118610.8,118599.1,118610.8),ask:ohlc(118599.2,118610.9,118599.2,118610.9),fair:ohlc(118599.1,118610.8,118599.1,118610.8),trades:ohlc(118598.1,118611.1,118598.1,118611.1)
+2025-10-02 06:42:11.407756 [INF] [CB_RO] bar[4] ohlc(118599.1,118610.8,118599.1,118610.8),numtick=203,last_tradeid=1782364438,bar_counter=4,volume=197.99,time_elapsed_ms=5217,c-o=11.7,rawc-o=null,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=False, OBSeq=638949841313890000
+
+
+
+
+2025-10-02 06:42:11.407772 [INF] [CB_RO] centralPrice=118610.80000000,ewmaPrice=118607.02421875,ewmaDeviation=11.56640625,forwardMid=118607.02421875,positionBias=0.00000000,forwardHighOrderPrice=119107.02421875,forwardLowOrderPrice=118107.02421875,prevTargetPosition=0.00000000, targetPosition=0.00000000,aep_adjustment_high=0,aep_adjustment_low=0,avgEntryPrice=0
+2025-10-02 06:42:11.407776 [INF] [CB_RO] barHeight=11.70000000,sellRate=0.00000000,buyRate=0.00000000,sellTrade=0.00000000,sellTradePrice=0.00000000,buyTrade=0.00000000,buyTradePrice=0.00000000
+2025-10-02 06:42:11.407782 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x5"
+2025-10-02 06:42:11.407788 [INF] [CB_RO] Cancel Buy Order clOrdId:"CBROBTCxstrata1x6"
+2025-10-02 06:42:11.407790 [INF] [CB_RO] Using Current forwardHighOrderPrice=119107.0242,forwardLowOrderPrice=118107.0242
+2025-10-02 06:42:11.407814 [DBG] [CB_RO] Sending Limit Order SELL,Price=119107.0,qty=0.01,clOrdId="CBROBTCxstrata1x7"
+2025-10-02 06:42:11.407818 [INF] [CB_RO] Rest Limit Order 1: SELL price=119107.0 qty=0.01 clOrdId="CBROBTCxstrata1x7"，calculated pos = -0.01
+2025-10-02 06:42:11.407830 [DBG] [CB_RO] Sending Limit Order BUY,Price=118107.0,qty=0.01,clOrdId="CBROBTCxstrata1x8"
+2025-10-02 06:42:11.407834 [INF] [CB_RO] Rest Limit Order 1: BUY price=118107.0 qty=0.01 clOrdId="CBROBTCxstrata1x8",calculated pos = 0.01
+2025-10-02 06:42:11.407839 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x8","Buy",ACK
+2025-10-02 06:42:11.407842 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x7","Sell",ACK
+2025-10-02 06:42:11.413089 [INF] [OKXMarket] NewOrder created "2915374522885742592",inTime="1759387331411145",outTime="1759387331412220", clOrdId="CBROBTCxstrata1x7",qty=0.01,Price=119107.0
+2025-10-02 06:42:11.413103 [WRN] [OKXMarket] HttpRoundTrip:[13,NEW:-1] Duration 5.3 ms, d2d = 0.098 tq:0.03 to:0.08 oq: 0.02 ms,tick_ts=14168103786119188,ord_ts=14168103786197106,deque_ts=14168103786216984. clOrdId:"CBROBTCxstrata1x7"
+2025-10-02 06:42:11.414867 [INF] [OKXMarket] NewOrder created "2915374522952851456",inTime="1759387331412004",outTime="1759387331414032", clOrdId="CBROBTCxstrata1x8",qty=0.01,Price=118107.0
+2025-10-02 06:42:11.414879 [WRN] [OKXMarket] HttpRoundTrip:[14,NEW:-1] Duration 7.0 ms, d2d = 0.104 tq:0.03 to:0.09 oq: 0.01 ms,tick_ts=14168103786119188,ord_ts=14168103786213297,deque_ts=14168103786222835. clOrdId:"CBROBTCxstrata1x8"
+2025-10-02 06:42:11.453563 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x5".inTime="1759387331447057",outTime="1759387331449743".
+2025-10-02 06:42:11.453574 [WRN] [OKXMarket] HttpRoundTrip:[11,CANCEL:0] Duration 45.8 ms, d2d = 0.063 tq:0.03 to:0.05 oq: 0.01 ms,tick_ts=14168103786119188,ord_ts=14168103786171437,deque_ts=14168103786182618. clOrdId:"CBROBTCxstrata1x5"
+2025-10-02 06:42:11.453582 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x6".inTime="1759387331447068",outTime="1759387331449760".
+2025-10-02 06:42:11.453590 [WRN] [OKXMarket] HttpRoundTrip:[12,CANCEL:0] Duration 45.8 ms, d2d = 0.075 tq:0.03 to:0.06 oq: 0.02 ms,tick_ts=14168103786119188,ord_ts=14168103786177679,deque_ts=14168103786193890. clOrdId:"CBROBTCxstrata1x6"
+2025-10-02 06:42:11.503043 [INF] [FirmOrderBook] Order "2915374347832270848" clOrdId="CBROBTCxstrata1x5" Cancelled, accQty =0
+2025-10-02 06:42:11.503053 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x5","Sell",CANCELLED
+2025-10-02 06:42:11.503118 [INF] [FirmOrderBook] Order "2915374347832270849" clOrdId="CBROBTCxstrata1x6" Cancelled, accQty =0
+2025-10-02 06:42:11.503122 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x6","Buy",CANCELLED
+
+
+
+#Execution Bar
+2025-10-02 06:42:43.896424 [INF] [CB_RO] extra bid:ohlc(118610.8,118624.7,118610.8,118624.7),ask:ohlc(118610.9,118624.8,118610.9,118624.8),fair:ohlc(118610.8,118624.7,118610.8,118624.7),trades:ohlc(118611.1,118624.8,118611.1,118624.8)
+2025-10-02 06:42:43.896445 [INF] [CB_RO] bar[5] ohlc(118610.8,118624.7,118610.8,118624.7),numtick=1137,last_tradeid=1782364811,bar_counter=5,volume=1444.09,time_elapsed_ms=32488,c-o=13.9,rawc-o=null,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=False, OBSeq=638949841638890000
+
+
+
+
+2025-10-02 06:42:43.896466 [INF] [CB_RO] centralPrice=118624.70000000,ewmaPrice=118620.28105469,ewmaDeviation=13.31660156,forwardMid=118620.28105469,positionBias=0.00000000,forwardHighOrderPrice=119120.28105469,forwardLowOrderPrice=118120.28105469,prevTargetPosition=0.00000000, targetPosition=0.00000000,aep_adjustment_high=0,aep_adjustment_low=0,avgEntryPrice=0
+2025-10-02 06:42:43.896469 [INF] [CB_RO] barHeight=13.90000000,sellRate=0.00000000,buyRate=0.00000000,sellTrade=0.00000000,sellTradePrice=0.00000000,buyTrade=0.00000000,buyTradePrice=0.00000000
+2025-10-02 06:42:43.896478 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x7"
+2025-10-02 06:42:43.896489 [INF] [CB_RO] Cancel Buy Order clOrdId:"CBROBTCxstrata1x8"
+2025-10-02 06:42:43.896491 [INF] [CB_RO] Using Current forwardHighOrderPrice=119120.2811,forwardLowOrderPrice=118120.2811
+2025-10-02 06:42:43.896514 [DBG] [CB_RO] Sending Limit Order SELL,Price=119120.3,qty=0.01,clOrdId="CBROBTCxstrata1x9"
+2025-10-02 06:42:43.896520 [INF] [CB_RO] Rest Limit Order 1: SELL price=119120.3 qty=0.01 clOrdId="CBROBTCxstrata1x9"，calculated pos = -0.01
+2025-10-02 06:42:43.896527 [DBG] [CB_RO] Sending Limit Order BUY,Price=118120.3,qty=0.01,clOrdId="CBROBTCxstrata1x10"
+2025-10-02 06:42:43.896529 [INF] [CB_RO] Rest Limit Order 1: BUY price=118120.3 qty=0.01 clOrdId="CBROBTCxstrata1x10",calculated pos = 0.01
+2025-10-02 06:42:43.896540 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x10","Buy",ACK
+2025-10-02 06:42:43.896697 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x9","Sell",ACK
+2025-10-02 06:42:43.898073 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x7".inTime="1759387363897568",outTime="1759387363898262".
+2025-10-02 06:42:43.898087 [WRN] [OKXMarket] HttpRoundTrip:[15,CANCEL:0] Duration 1.6 ms, d2d = 0.087 tq:0.05 to:0.07 oq: 0.02 ms,tick_ts=14168136274796045,ord_ts=14168136274865306,deque_ts=14168136274882809. clOrdId:"CBROBTCxstrata1x7"
+2025-10-02 06:42:43.899351 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x8".inTime="1759387363898805",outTime="1759387363899488".
+2025-10-02 06:42:43.899366 [WRN] [OKXMarket] HttpRoundTrip:[16,CANCEL:0] Duration 2.8 ms, d2d = 0.109 tq:0.05 to:0.08 oq: 0.03 ms,tick_ts=14168136274796045,ord_ts=14168136274873291,deque_ts=14168136274904691. clOrdId:"CBROBTCxstrata1x8"
+2025-10-02 06:42:43.899376 [INF] [FirmOrderBook] Order "2915374522885742592" clOrdId="CBROBTCxstrata1x7" Cancelled, accQty =0
+2025-10-02 06:42:43.899380 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x7","Sell",CANCELLED
+2025-10-02 06:42:43.900465 [INF] [FirmOrderBook] Order "2915374522952851456" clOrdId="CBROBTCxstrata1x8" Cancelled, accQty =0
+2025-10-02 06:42:43.900473 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x8","Buy",CANCELLED
+2025-10-02 06:42:43.901330 [INF] [OKXMarket] NewOrder created "2915375613002129408",inTime="1759387363899542",outTime="1759387363900536", clOrdId="CBROBTCxstrata1x9",qty=0.01,Price=119120.3
+2025-10-02 06:42:43.901341 [WRN] [OKXMarket] HttpRoundTrip:[17,NEW:-1] Duration 4.7 ms, d2d = 0.285 tq:0.05 to:0.10 oq: 0.18 ms,tick_ts=14168136274796045,ord_ts=14168136274900262,deque_ts=14168136275080605. clOrdId:"CBROBTCxstrata1x9"
+2025-10-02 06:42:43.902403 [INF] [OKXMarket] NewOrder created "2915375613035683840",inTime="1759387363899680",outTime="1759387363901155", clOrdId="CBROBTCxstrata1x10",qty=0.01,Price=118120.3
+2025-10-02 06:42:43.902415 [WRN] [OKXMarket] HttpRoundTrip:[18,NEW:-1] Duration 5.9 ms, d2d = 0.134 tq:0.05 to:0.12 oq: 0.01 ms,tick_ts=14168136274796045,ord_ts=14168136274918216,deque_ts=14168136274930089. clOrdId:"CBROBTCxstrata1x10"
+
+
+#Strategy Bar
+2025-10-02 06:42:45.129879 [INF] [CB_RO#trend] extra bid:ohlc(118607.9,118629.8,118607.9,118629.8),ask:ohlc(118608,118629.9,118608,118629.9),fair:ohlc(118607.65,118629.8,118607.65,118629.8),trades:ohlc(118610,118629.5,118610,118629.5)
+2025-10-02 06:42:45.129899 [INF] [CB_RO#trend] bar[3] ohlc(118607.65,118627.65,118607.65,118627.65),numtick=1197,last_tradeid=1782364846,bar_counter=3,volume=1488.52,time_elapsed_ms=33722,c-o=20.00,rawc-o=22.15,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=True, OBSeq=638949841651290000

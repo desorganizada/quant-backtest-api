@@ -1,0 +1,9 @@
+{
+  "strategy_bar_path": "/data/backtesting/strategy_bar/strategy_bar_2026-02-12T15-15-27.434+04-00.csv",
+  "execution_bar_path": "/data/backtesting/execution_bar/execution_bar_2026-02-12T15-15-26.25904-00.csv",
+  "strategy_param_path": "/data/backtesting/parameters/parameters-2026-02-12T11-15-27-680Z.json",
+  "strategy": "D2Trend",
+  "exec_strategy": "EE",
+  "output_directory": "/data/backtesting/results",
+  "module_strategy": "strategy_registry"
+}

@@ -1,0 +1,6 @@
+{
+    "strategy": "/data/backtesting/results/results_2026-02-11T12-04-58-038Z/strategy_registry.py",
+    "data": "/data/backtesting/strategy_bar/strategy_bar_2026-02-11T16-04-52.797+04-00.csv",
+    "exec_strategy": "/data/backtesting/results/results_2026-02-11T12-04-58-038Z/strategy_registry.py",
+    "exec_data": "/data/backtesting/execution_bar/execution_bar_2026-02-11T16-04-51.71704-00.csv"
+}

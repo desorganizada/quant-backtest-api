@@ -1,0 +1,16 @@
+raw
+2025-05-12 13:25:15.388865 [WRN] [] xBots Version 2025.5.12.1
+2025-05-12 13:25:15.392228 [WRN] [] License will expired in 183 Days
+"2025-05-12 13:25:15.392435 [WRN] [] - botcommon, Version 2023.12.19.0"
+"2025-05-12 13:25:15.392447 [WRN] [] - CryptoExchange.Net, Version 8.0.2.0"
+"2025-05-12 13:25:15.392450 [WRN] [] - OKX.Net, Version 2.5.0.0"
+"2025-05-12 13:25:15.392452 [WRN] [] - Binance.Net, Version 10.6.0.0"
+"2025-05-12 13:25:15.392460 [WRN] [] - Deribit.Net, Version 1.0.0.0"
+"2025-05-12 13:25:15.399763 [WRN] [OKXMarket] Using Custom server address for ""default"": ""Live"". rest_address=""https://coloapi3.okx.com"", ws_address=""wss://colows-d.okx.com"""
+2025-05-12 13:25:15.423665 [WRN] [OKXMarket] Connect to OKX live. rest = https://coloapi3.okx.com. sock = wss://colows-d.okx.com
+"2025-05-12 13:25:15.423740 [WRN] [OKXMarket] Using Custom server address for ""business"": ""Live"". rest_address=""https://coloapi3.okx.com"", ws_address=""wss://colows3.okx.com"""
+2025-05-12 13:25:15.423873 [WRN] [OKXMarket] Connect to OKX Business Websocket live. sock = wss://colows3.okx.com
+2025-05-12 13:25:15.774073 [WRN] [OKXMarket] Rest API Connectivity OK. avg HttpRoundTrip=17 ms
+"2025-05-12 13:25:17.308032 [WRN] [OKX] [Req 11] Delaying call to ""api/v5/public/time"" by 00:00:01.1468936 because of ratelimit guard ""EndpointLimitGuard""; ""Limit requests to endpoint, Request weight: 1, Current: 10, Limit: 10, requests now being limited: 1"""
+2025-05-12 13:25:19.469350 [WRN] [OKXMarket] Subscrib to SymbolOrderBook.BBO_TBT BTC-USDT-SWAP
+"2025-05-12 13:25:19.999240 [WRN] [OKX] [Sckt 2] received message not matched to any listener. ListenId: ""channel-conn-count"", current listeners: ""ordersany"""

@@ -1,0 +1,93 @@
+#Strategy Parameters
+
+
+
+#Execution Bars
+
+
+2025-10-02 06:41:59.738222 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x1","Sell",ACK
+2025-10-02 06:41:59.738231 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x2","Buy",ACK
+
+
+#Strategy Bar
+
+
+
+
+#Execution Bar
+
+
+
+2025-10-02 06:42:00.254331 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x1"
+2025-10-02 06:42:00.254385 [INF] [CB_RO] Cancel Buy Order clOrdId:"CBROBTCxstrata1x2"
+2025-10-02 06:42:00.254447 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x3","Sell",ACK
+2025-10-02 06:42:00.254474 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x4","Buy",ACK
+2025-10-02 06:42:00.299806 [INF] [FirmOrderBook] Order "2915374132781916160" clOrdId="CBROBTCxstrata1x1" Cancelled, accQty =0
+2025-10-02 06:42:00.299821 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x1","Sell",CANCELLED
+2025-10-02 06:42:00.299982 [INF] [FirmOrderBook] Order "2915374132580589568" clOrdId="CBROBTCxstrata1x2" Cancelled, accQty =0
+2025-10-02 06:42:00.299993 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x2","Buy",CANCELLED
+2025-10-02 06:42:00.304902 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x1".inTime="1759387320297157",outTime="1759387320297898".
+2025-10-02 06:42:00.304909 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x2".inTime="1759387320297178",outTime="1759387320297906".
+
+#Execution Bar
+
+
+
+
+2025-10-02 06:42:06.190018 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x3"
+2025-10-02 06:42:06.190025 [INF] [CB_RO] Cancel Buy Order clOrdId:"CBROBTCxstrata1x4"
+2025-10-02 06:42:06.190104 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x5","Sell",ACK
+2025-10-02 06:42:06.190110 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x6","Buy",ACK
+2025-10-02 06:42:06.191705 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x4".inTime="1759387326191183",outTime="1759387326191865".
+2025-10-02 06:42:06.192892 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x3".inTime="1759387326192395",outTime="1759387326193111".
+2025-10-02 06:42:06.193065 [INF] [FirmOrderBook] Order "2915374148653162496" clOrdId="CBROBTCxstrata1x4" Cancelled, accQty =0
+2025-10-02 06:42:06.193075 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x4","Buy",CANCELLED
+2025-10-02 06:42:06.194158 [INF] [FirmOrderBook] Order "2915374148653162497" clOrdId="CBROBTCxstrata1x3" Cancelled, accQty =0
+2025-10-02 06:42:06.194167 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x3","Sell",CANCELLED
+
+
+
+
+#Strategy Bar
+
+
+
+
+
+
+#Execution Bar
+
+
+
+
+2025-10-02 06:42:11.407782 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x5"
+2025-10-02 06:42:11.407788 [INF] [CB_RO] Cancel Buy Order clOrdId:"CBROBTCxstrata1x6"
+2025-10-02 06:42:11.407839 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x8","Buy",ACK
+2025-10-02 06:42:11.407842 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x7","Sell",ACK
+2025-10-02 06:42:11.453563 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x5".inTime="1759387331447057",outTime="1759387331449743".
+2025-10-02 06:42:11.453582 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x6".inTime="1759387331447068",outTime="1759387331449760".
+2025-10-02 06:42:11.503043 [INF] [FirmOrderBook] Order "2915374347832270848" clOrdId="CBROBTCxstrata1x5" Cancelled, accQty =0
+2025-10-02 06:42:11.503053 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x5","Sell",CANCELLED
+2025-10-02 06:42:11.503118 [INF] [FirmOrderBook] Order "2915374347832270849" clOrdId="CBROBTCxstrata1x6" Cancelled, accQty =0
+2025-10-02 06:42:11.503122 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x6","Buy",CANCELLED
+
+
+
+#Execution Bar
+
+
+
+
+2025-10-02 06:42:43.896478 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x7"
+2025-10-02 06:42:43.896489 [INF] [CB_RO] Cancel Buy Order clOrdId:"CBROBTCxstrata1x8"
+2025-10-02 06:42:43.896540 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x10","Buy",ACK
+2025-10-02 06:42:43.896697 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x9","Sell",ACK
+2025-10-02 06:42:43.898073 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x7".inTime="1759387363897568",outTime="1759387363898262".
+2025-10-02 06:42:43.899351 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x8".inTime="1759387363898805",outTime="1759387363899488".
+2025-10-02 06:42:43.899376 [INF] [FirmOrderBook] Order "2915374522885742592" clOrdId="CBROBTCxstrata1x7" Cancelled, accQty =0
+2025-10-02 06:42:43.899380 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x7","Sell",CANCELLED
+2025-10-02 06:42:43.900465 [INF] [FirmOrderBook] Order "2915374522952851456" clOrdId="CBROBTCxstrata1x8" Cancelled, accQty =0
+2025-10-02 06:42:43.900473 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x8","Buy",CANCELLED
+
+
+#Strategy Bar

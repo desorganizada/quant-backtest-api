@@ -1,0 +1,75 @@
+{
+  "status": "done",
+  "run_stamp_utc": "2026-03-09T10-08-33-988Z",
+  "source_file": "/data/backtesting/first_250k.log",
+  "final_root": "/data/backtesting",
+  "raw_copy": "/data/backtesting/raw_logs/raw/raw_2026-03-09T10-08-33-988Z.log",
+  "normalized_copy": "/data/backtesting/raw_logs/tmp_split/split_tmp_2026-03-09T10-08-33-988Z/normalized_2026-03-09T10-08-33-988Z.log",
+  "split_tmp_dir": "/data/backtesting/raw_logs/tmp_split/split_tmp_2026-03-09T10-08-33-988Z",
+  "split_counts": {
+    "unmatched": 94982,
+    "errors_and_warnings": 15,
+    "orders": 56981,
+    "params": 64,
+    "execution_bar": 18994,
+    "execution_indicators": 28491,
+    "duration_statistics": 37984,
+    "strategy_bar": 8314,
+    "strategy_indicators": 4176,
+    "fills": 0,
+    "remain": 0,
+    "anomalies": 0,
+    "trend": 0
+  },
+  "generated": {
+    "orders": {
+      "lines": "/data/backtesting/orders/logs/orders_lines_2026-03-09T10-08-33-988Z.log",
+      "structured": "/data/backtesting/orders/csv/orders_2026-03-09T10-08-33-988Z.csv"
+    },
+    "params": {
+      "lines": "/data/backtesting/parameters/logs/params_lines_2026-03-09T10-08-33-988Z.txt",
+      "structured": "/data/backtesting/parameters/json/params_2026-03-09T10-08-33-988Z.json"
+    },
+    "duration_statistics": {
+      "lines": "/data/backtesting/duration_statistics/logs/duration_statistics_lines_2026-03-09T10-08-33-988Z.log",
+      "structured": "/data/backtesting/duration_statistics/csv/duration_statistics_2026-03-09T10-08-33-988Z.csv"
+    },
+    "execution_indicators": {
+      "lines": "/data/backtesting/execution_indicators/logs/execution_indicators_lines_2026-03-09T10-08-33-988Z.log",
+      "structured": "/data/backtesting/execution_indicators/csv/execution_indicators_2026-03-09T10-08-33-988Z.csv"
+    },
+    "strategy_indicators": {
+      "lines": "/data/backtesting/strategy_indicators/logs/strategy_indicators_lines_2026-03-09T10-08-33-988Z.log",
+      "structured": "/data/backtesting/strategy_indicators/csv/strategy_indicators_2026-03-09T10-08-33-988Z.csv"
+    },
+    "execution_bar": {
+      "lines": "/data/backtesting/execution_bar/logs/execution_bar_lines_2026-03-09T10-08-33-988Z.log",
+      "structured": "/data/backtesting/execution_bar/csv/execution_bar_2026-03-09T10-08-33-988Z.csv"
+    },
+    "strategy_bar": {
+      "lines": "/data/backtesting/strategy_bar/logs/strategy_bar_lines_2026-03-09T10-08-33-988Z.log",
+      "structured": "/data/backtesting/strategy_bar/csv/strategy_bar_2026-03-09T10-08-33-988Z.csv"
+    },
+    "fills": {
+      "lines": "/data/backtesting/fills/logs/fills_lines_2026-03-09T10-08-33-988Z.log",
+      "structured": "/data/backtesting/fills/csv/fills_2026-03-09T10-08-33-988Z.csv"
+    },
+    "errors_and_warnings": {
+      "lines": "/data/backtesting/errors_and_warnings/logs/errors_and_warnings_lines_2026-03-09T10-08-33-988Z.log",
+      "structured": "/data/backtesting/errors_and_warnings/csv/errors_and_warnings_2026-03-09T10-08-33-988Z.csv"
+    },
+    "unmatched": {
+      "lines": "/data/backtesting/unmatched/logs/unmatched_lines_2026-03-09T10-08-33-988Z.log"
+    },
+    "remain": {
+      "lines": "/data/backtesting/remain/logs/remain_lines_2026-03-09T10-08-33-988Z.log"
+    },
+    "anomalies": {
+      "lines": "/data/backtesting/anomalies/logs/anomalies_lines_2026-03-09T10-08-33-988Z.txt"
+    },
+    "trend": {
+      "lines": "/data/backtesting/trend/logs/trend_lines_2026-03-09T10-08-33-988Z.log"
+    }
+  },
+  "note": "xBots bucket split + UTF-16 handling + normalization; outputs under <bucket>/{logs,csv,json} and raw_logs/{raw,meta,tmp_split}"
+}
