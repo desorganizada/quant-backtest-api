@@ -1,0 +1,50 @@
+2025-05-12 13:25:15.392447 [WRN] [] - CryptoExchange.Net, Version 8.0.2.0
+2025-05-12 13:25:15.392450 [WRN] [] - OKX.Net, Version 2.5.0.0
+2025-05-12 13:25:15.392452 [WRN] [] - Binance.Net, Version 10.6.0.0
+2025-05-12 13:25:15.392460 [WRN] [] - Deribit.Net, Version 1.0.0.0
+2025-05-12 13:25:15.399763 [WRN] [OKXMarket] Using Custom server address for "default": "Live". rest_address="https://coloapi3.okx.com", ws_address="wss://colows-d.okx.com"
+2025-05-12 13:25:15.423665 [WRN] [OKXMarket] Connect to OKX live. rest = https://coloapi3.okx.com. sock = wss://colows-d.okx.com
+2025-05-12 13:25:15.423740 [WRN] [OKXMarket] Using Custom server address for "business": "Live". rest_address="https://coloapi3.okx.com", ws_address="wss://colows3.okx.com"
+2025-05-12 13:25:15.423873 [WRN] [OKXMarket] Connect to OKX Business Websocket live. sock = wss://colows3.okx.com
+2025-05-12 13:25:15.425146 [INF] [OKXMarket] DeskCode = CRYTAM
+2025-05-12 13:25:15.431148 [INF] [OKXMarket] max_degree_of_parallelism = 10
+2025-05-12 13:25:15.431166 [INF] [OKXMarket] mmp = False
+2025-05-12 13:25:15.434382 [INF] [OKXMarket] Testing Market Connectivity
+2025-05-12 13:25:15.774073 [WRN] [OKXMarket] Rest API Connectivity OK. avg HttpRoundTrip=17 ms
+2025-05-12 13:25:17.308032 [WRN] [OKX] [Req 11] Delaying call to "api/v5/public/time" by 00:00:01.1468936 because of ratelimit guard "EndpointLimitGuard"; "Limit requests to endpoint, Request weight: 1, Current: 10, Limit: 10, requests now being limited: 1"
+2025-05-12 13:25:19.464283 [INF] [OKXMarket] ServerTime Diff=-1 ms, avg HttpRoundTrip=234 ms
+2025-05-12 13:25:19.469350 [WRN] [OKXMarket] Subscrib to SymbolOrderBook.BBO_TBT BTC-USDT-SWAP
+2025-05-12 13:25:19.476024 [INF] [OKX] "Unified" order book "BTC-USDT-SWAP" status changed: Disconnected => Connecting
+2025-05-12 13:25:19.577879 [INF] [OKX] [Sckt 1] subscription 13 completed successfully
+2025-05-12 13:25:19.578793 [INF] [OKX] "Unified" order book "BTC-USDT-SWAP" status changed: Connecting => Syncing
+2025-05-12 13:25:19.839820 [INF] [OKX] "Unified" order book "BTC-USDT-SWAP" status changed: Syncing => Synced
+2025-05-12 13:25:19.955019 [INF] [OKXMarket] CancelAllOpenOrders(), 0 orders cancelled.
+
+2025-05-12 13:25:20.072146 [INF] [CB_RO] Init Param "orderSizePercentage" = "10", rules= "decimal,0,100,0.########,False"
+2025-05-12 13:25:20.072150 [INF] [CB_RO] Init Param "positionBiasParam" = "10.000", rules= "decimal,0,100,F3,False"
+2025-05-12 13:25:20.072359 [INF] [CB_RO] Init Param "postOnly" = "False", rules= "bool"
+2025-05-12 13:25:20.072376 [INF] [CB_RO] Init Param "priceLambda" = "0.250", rules= "decimal,0,100,F3,False"
+2025-05-12 13:25:20.072382 [INF] [CB_RO] Init Param "targetTradeRate" = "0.500", rules= "decimal,0,100,F3,False"
+2025-05-12 13:25:20.072387 [INF] [CB_RO] Init Param "tradeRateLambda" = "0.750", rules= "decimal,0,100,F3,False"
+2025-05-12 13:33:11.472656 [INF] [CB_RO] Rest Limit Order 1: BUY price=103854.1 qty=0.01 clOrdId="CBROBTCxstrata1x472",calculated pos = 0.01
+2025-05-12 13:33:11.472663 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x471","Sell",ACK
+2025-05-12 13:33:11.472685 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x472","Buy",ACK
+2025-05-12 13:33:11.474133 [INF] [OKXMarket] CancelSent clOrdId="CBROBTCxstrata1x469".inTime="1747056791473021",outTime="1747056791473741".
+2025-05-12 13:33:18.992617 [INF] [CB_RO] Rest Limit Order 1: BUY price=103744.5 qty=0.01 clOrdId="CBROBTCxstrata1x494",calculated pos = 0.01
+2025-05-12 13:33:18.992624 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x493","Sell",ACK
+025-05-12 13:57:29.512803 [INF] [FirmOrderBook] Order "2501679141679800320" clOrdId="CBROBTCxstrata1x2623" Cancelled, accQty =0
+2025-05-12 13:57:29.512810 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x2623","Sell",CANCELLED
+2025-05-12 13:57:29.513112 [INF] [FirmOrderBook] Order "2501679141713354752" clOrdId="CBROBTCxstrata1x2624" Cancelled, accQty =0
+2025-05-12 13:57:29.513118 [INF] [CB_RO] Receive Order clOrdId="CBROBTCxstrata1x2624","Buy",CANCELLED
+2025-05-12 13:57:29.513746 [INF] [OKXMarket] NewOrder created "2501679182683316224",inTime="1747058249511546",outTime="1747058249513482", clOrdId="CBROBTCxstrata1x2625",qty=0.01,Price=104682.8
+2025-05-12 13:57:29.513754 [WRN] [OKXMarket] HttpRoundTrip:[5249,NEW:-1] Duration 4.3 ms, d2d = 0.063 tq:0.03 to:0.05 oq: 0.02 ms,tick_ts=1839021887761140,ord_ts=1839021887807498,deque_ts=1839021887824160. clOrdId:"CBROBTCxstrata1x2625"
+2025-05-12 13:57:29.514204 [INF] [OKXMarket] NewOrder created "2501679182649761792",inTime="1747058249511156",outTime="1747058249512915", clOrdId="CBROBTCxstrata1x2626",qty=0.01,Price=103682.8
+2025-05-12 13:57:29.514211 [WRN] [OKXMarket] HttpRoundTrip:[5250,NEW:-1] Duration 4.8 ms, d2d = 0.069 tq:0.03 to:0.05 oq: 0.02 ms,tick_ts=1839021887761140,ord_ts=1839021887814181,deque_ts=1839021887830412. clOrdId:"CBROBTCxstrata1x2626"
+2025-05-12 13:57:30.728006 [INF] [CB_RO#trend] extra bid:ohlc(104193.2,104193.2,104170.5,104170.5),ask:ohlc(104193.3,104193.3,104170.6,104170.6),fair:ohlc(104192.55,104193.2,104170.6,104170.6),trades:ohlc(104191.5,104193.3,104170.5,104170.5)
+2025-05-12 13:57:30.728028 [INF] [CB_RO#trend] bar[575] ohlc(104192.55,104193.2,104172.55,104172.55),numtick=131,last_tradeid=1521859766,bar_counter=-1,volume=346.64,time_elapsed_ms=2440,c-o=-20.00,rawc-o=-21.95,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=True, OBSeq=230572216557
+2025-05-12 13:57:30.728060 [INF] [CB_RO#trend] TrendStrength=-1,-0.001055245569083152,-0.0005131239874494942,1.2223403681958096E-07,False,False,1,1,1,0.01,2,None
+2025-05-12 13:57:32.938719 [INF] [CB_RO] extra bid:ohlc(104180,104180,104164.3,104164.3),ask:ohlc(104180.1,104180.1,104164.4,104164.4),fair:ohlc(104180.1,104180.1,104164.4,104164.4),trades:ohlc(104183.8,104183.8,104166,104166)
+2025-05-12 13:57:32.938735 [INF] [CB_RO] bar[1314] ohlc(104180.1,104180.1,104164.4,104164.4),numtick=197,last_tradeid=1521859806,bar_counter=-2,volume=244.79,time_elapsed_ms=3429,c-o=-15.7,rawc-o=null,isPriceBar=True,isVolumeBar=False,isFinalSplitBar=False, OBSeq=230572224020
+2025-05-12 13:57:32.938743 [INF] [CB_RO] centralPrice=104164.40000000,ewmaPrice=104168.99264430,ewmaDeviation=15.49187543,forwardMid=104168.99264430,positionBias=0.00000000,forwardHighOrderPrice=104668.99264430,forwardLowOrderPrice=103668.99264430
+2025-05-12 13:57:32.938746 [INF] [CB_RO] barHeight=15.70000000,sellRate=0.00000000,buyRate=0.00000000,sellTrade=0.00000000,sellTradePrice=0.00000000,buyTrade=0.00000000,buyTradePrice=0.00000000
+2025-05-12 13:57:32.938749 [INF] [CB_RO] Cancel Sell Order clOrdId:"CBROBTCxstrata1x2625"

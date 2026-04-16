@@ -1,3 +1,0 @@
-timestamp,trend_strength_value,trend_strength_ewma,trend_strength_double_ewma,trend_strength_double_ewma_slope,buildup_in_progress,reduction_in_progress,buildup_step_size,reduction_step_size,position_multiplier,target_position,slope_sign_count,trend_status
-2025-10-02 06:42:00.253,0,0,0,0,False,False,0.2,0.2,0,0.0,0,None
-2025-10-02 06:42:11.407,1,0.0004999999999999449,1.4999999999996696e-07,0,False,False,0.2,0.2,0,0.0,0,None
